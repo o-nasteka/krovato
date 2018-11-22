@@ -187,10 +187,12 @@
 #wt_search a {
 	font-size: 22px;
     margin-bottom: 10px;
-    /*color: #333333;*/
     color: #FFAC00;
     font-weight: 700;
     display: block;
+}
+#wt_search a:hover{
+    color: #434343;
 }
 #contacts{
 	padding-left: 0px;
