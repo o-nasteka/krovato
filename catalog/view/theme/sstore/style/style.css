@@ -185,7 +185,7 @@
 	margin-top: 10px;
 }
 #wt_search a {
-	font-size: 22px;
+	font-size: 27px;
     margin-bottom: 10px;
     color: #FFAC00;
     font-weight: 700;
@@ -372,6 +372,27 @@ nav .navbar-nav {
 	margin-right: 10px;
 	margin-left: 0px !important;
 }
+/* mob-delivery */
+.mob-delivery{
+    position: absolute;
+    /*width: 350px;*/
+    /*height: 50px;*/
+    /*padding: 10px;*/
+    display: block;
+    z-index: 9999;
+    right: 30px;
+}
+.mob-delivery a{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #FFAC00;
+    font-weight: 700;
+    display: block;
+
+}
+/* mob-delivery end */
+
+
 .footer-top #contacts>#phone {
     display: block; 
 }
