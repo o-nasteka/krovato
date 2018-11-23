@@ -292,16 +292,16 @@ class ControllerModulePopUpByKj extends Controller
             $data['custom_css'] = '';
         }
 
-        if (isset($this->request->post['customer_group']))
-        {
-            $data['customer_group'] = $this->request->post['customer_group'];
-        } elseif (!empty($module_info))
-        {
-            $data['customer_group'] = $module_info['customer_group'];
-        } else
-        {
-            $data['customer_group'] = '';
-        }
+//        if (isset($this->request->post['customer_group']))
+//        {
+//            $data['customer_group'] = $this->request->post['customer_group'];
+//        } elseif (!empty($module_info))
+//        {
+//            $data['customer_group'] = $module_info['customer_group'];
+//        } else
+//        {
+//            $data['customer_group'] = '';
+//        }
 
 
         if (isset($this->request->post['status']))
