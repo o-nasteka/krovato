@@ -187,6 +187,6 @@
     $(".summernote").summernote({height:500});
 </script>
 <script type="text/javascript">
-        CKEDITOR.replace('content1<?php echo $content; ?>');
+    CKEDITOR.replace('content1<?php echo $content; ?>');
 </script>
 <?php echo $footer; ?>
